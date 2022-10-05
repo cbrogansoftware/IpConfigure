@@ -1,4 +1,4 @@
-package org.cbrogansoftware;
+package org.cbrogansoftware.inheritance;
 
 
 /**
@@ -10,7 +10,7 @@ public interface Shape {
      * Returns area of shape.
      * The calculateArea() method is key to demonstrating polymorphism
      * in this example because each subclass must implement the appropriate
-     * geometric formula for its specific shape.
+     * geometric formula for its specific Shape.
      * @return Area as double.
      */
     public double calculateArea();

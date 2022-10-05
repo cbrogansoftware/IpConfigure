@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ecf01be-4466-4f9b-b5d4-365ce2dcc4e9" name="Changes" comment="Version 1 backup" />
+    <list default="true" id="0ecf01be-4466-4f9b-b5d4-365ce2dcc4e9" name="Changes" comment="Version 1 backup">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/ShapeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/ShapeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/Triangle.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,13 +51,18 @@
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.cbrogansoftware" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.ShapeMain">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.cbrogansoftware.Main" />
       <module name="IpConfigure12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.cbrogansoftware.*" />
+          <option name="PATTERN" value="org.cbrogansoftware.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,11 +71,11 @@
       </method>
     </configuration>
     <configuration name="ShapeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.cbrogansoftware.ShapeMain" />
+      <option name="MAIN_CLASS_NAME" value="org.cbrogansoftware.inheritance.ShapeMain" />
       <module name="IpConfigure12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.cbrogansoftware.*" />
+          <option name="PATTERN" value="org.cbrogansoftware.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664981145033</updated>
       <workItem from="1664981146818" duration="4972000" />
-      <workItem from="1664992316313" duration="8053000" />
+      <workItem from="1664992316313" duration="8766000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1 backup">
       <created>1665001836703</created>
@@ -97,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665001836703</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Version 1 backup">
+      <created>1665002070276</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665002070276</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

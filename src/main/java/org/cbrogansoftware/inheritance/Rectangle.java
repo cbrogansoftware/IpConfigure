@@ -1,6 +1,6 @@
-package org.cbrogansoftware;
+package org.cbrogansoftware.inheritance;
 
-public class Triangle implements Shape{
+public class Rectangle implements Shape{
 
     private double width;
     private double height;
@@ -10,9 +10,9 @@ public class Triangle implements Shape{
     /**
      * The default Rectangle.
      */
-    Triangle(){
-        setWidth(0);
-        setHeight(0);
+    Rectangle(){
+        setWidth(20);
+        setHeight(10);
         fillColor = "white";
         borderWidth = 1;
     }
