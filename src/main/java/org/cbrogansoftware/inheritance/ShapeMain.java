@@ -10,6 +10,9 @@ public class ShapeMain {
         Triangle triangle = new Triangle();
         triangle.describeShape();
         System.out.println("----------------");
+        Circle circle = new Circle();
+        circle.describeShape();
+        System.out.println("----------------");
 
     }
 }
