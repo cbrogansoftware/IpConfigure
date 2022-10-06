@@ -15,11 +15,10 @@ abstract class GAPrinter<T> implements GIPrinter<T> {
 
     /**
      * Implement printType() method.
-     * @param type Type of generic being demoed.
      */
     @Override
-    public void printType(String type) {
-        System.out.println("The passed generic type is: " + type);
+    public void printType() {
+        System.out.println("The specified generic type is: " + myOutValue.getClass().toString());
     }
 
     /**
@@ -27,7 +26,11 @@ abstract class GAPrinter<T> implements GIPrinter<T> {
      */
     @Override
     public void printGenericValueCon() {
-        System.out.println("The passed generic value to the constructor is: " + myOutValue);
+        System.out.println("The passed value to the constructor is: " + myOutValue);
+    }
+    @Override
+    public void printGenericValueMeth(T t) {
+        System.out.println("The passed value to the specified method is: " + t);
     }
 
     /**
@@ -37,8 +40,4 @@ abstract class GAPrinter<T> implements GIPrinter<T> {
      */
     public abstract void printValueLength();
 
-    @Override
-    public void printGenericValueMeth(T t) {
-        System.out.println("The passed generic value to a method is: " + t);
-    }
 }

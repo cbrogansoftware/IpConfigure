@@ -14,7 +14,7 @@ public class Printer<T> extends GAPrinter<T> {
      */
     @Override
     public void printValueLength() {
-        System.out.println("The passed generic toString length is: " + myOutValue.toString().length());
+        System.out.println("The passed value to the constructor has a toString length of: " + myOutValue.toString().length());
     }
 
     public static void main(String[] args) {
@@ -27,26 +27,26 @@ public class Printer<T> extends GAPrinter<T> {
          */
         Printer<String> myPrinterS = new Printer<>("Hello World");
         Printer<Integer> myPrinterI = new Printer<>(21);
-        Printer<Double> myPrinterD = new Printer<>(21.55555);
+        Printer<Double> myPrinterD = new Printer<>(23.55555);
 
         /*
           Code reuse is demonstrated below by calling the same methods
            on the various objects that were created above.
          */
-        myPrinterS.printType("String");
+        myPrinterS.printType();
         myPrinterS.printGenericValueCon();
-        myPrinterS.printGenericValueMeth("Hello Method");
         myPrinterS.printValueLength();
+        myPrinterS.printGenericValueMeth("Hello Method");
         System.out.println("----------------------");
-        myPrinterI.printType("Integer");
+        myPrinterI.printType();
         myPrinterI.printGenericValueCon();
-        myPrinterI.printGenericValueMeth(21);
         myPrinterI.printValueLength();
+        myPrinterI.printGenericValueMeth(22);
         System.out.println("----------------------");
-        myPrinterD.printType("Double");
+        myPrinterD.printType();
         myPrinterD.printGenericValueCon();
-        myPrinterD.printGenericValueMeth(22.2);
         myPrinterD.printValueLength();
+        myPrinterD.printGenericValueMeth(24.2);
 
     }
 

@@ -7,19 +7,19 @@ package org.cbrogansoftware.generics;
  */
 public interface GIPrinter<T> {
     /**
-     * Print passed type for demo output.
+     * Print generic type for demo output.
      */
-    public void printType(String type);
-
-    /**
-     * Print passed generic value to method for demo.
-     */
-    public void printGenericValueMeth(T t);
+    public void printType();
 
     /**
      * Print passed generic value to constructor for demo.
      */
     public void printGenericValueCon();
+
+    /**
+     * Print passed generic value to method for demo.
+     */
+    public void printGenericValueMeth(T t);
 
     // * Print passed value length concatenated to message for demo output.
     //public void printValueLength();
