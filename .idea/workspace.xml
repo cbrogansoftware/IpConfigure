@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ecf01be-4466-4f9b-b5d4-365ce2dcc4e9" name="Changes" comment="Version 2 tweaks for circle impl.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/generics/GAprinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/generics/GIprinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/generics/Printer.java" afterDir="false" />
+    <list default="true" id="0ecf01be-4466-4f9b-b5d4-365ce2dcc4e9" name="Changes" comment="Version 1 for generics problem.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/ShapeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/ShapeMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/generics/GAprinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/generics/GAprinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/generics/GIprinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/generics/GIprinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/generics/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/generics/Printer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +114,7 @@
       <updated>1664981145033</updated>
       <workItem from="1664981146818" duration="4972000" />
       <workItem from="1664992316313" duration="10042000" />
-      <workItem from="1665056322176" duration="10600000" />
+      <workItem from="1665056322176" duration="14917000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1 backup">
       <created>1665001836703</created>
@@ -147,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665003677730</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Version 1 for generics problem.">
+      <created>1665067611119</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665067611119</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +172,7 @@
     <MESSAGE value="Version 1 backup" />
     <MESSAGE value="Version 2 backup with refactoring and package reorgs." />
     <MESSAGE value="Version 2 tweaks for circle impl." />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 2 tweaks for circle impl." />
+    <MESSAGE value="Version 1 for generics problem." />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1 for generics problem." />
   </component>
 </project>
