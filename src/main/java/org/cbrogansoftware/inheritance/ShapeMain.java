@@ -3,6 +3,7 @@ package org.cbrogansoftware.inheritance;
 public class ShapeMain {
     public static void main(String[] args) {
 
+        System.out.println("");
         System.out.println("----------------");
         Rectangle rectangle = new Rectangle();
         rectangle.describeShape();

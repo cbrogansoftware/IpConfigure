@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ecf01be-4466-4f9b-b5d4-365ce2dcc4e9" name="Changes" comment="Version 2 backup with refactoring and package reorgs.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/Circle.java" afterDir="false" />
+    <list default="true" id="0ecf01be-4466-4f9b-b5d4-365ce2dcc4e9" name="Changes" comment="Version 2 tweaks for circle impl.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/generics/GAprinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/generics/GIprinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/generics/Printer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/ShapeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/ShapeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,31 +41,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.cbrogansoftware.inheritance" />
       <recent name="org.cbrogansoftware" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShapeMain">
+  <component name="RunManager" selected="Application.Printer">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.cbrogansoftware.Main" />
       <module name="IpConfigure12" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.cbrogansoftware.inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Printer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.cbrogansoftware.generics.Printer" />
+      <module name="IpConfigure12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cbrogansoftware.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Printer" />
         <item itemvalue="Application.ShapeMain" />
         <item itemvalue="Application.Main" />
       </list>
@@ -98,7 +116,8 @@
       <option name="presentableId" value="Default" />
       <updated>1664981145033</updated>
       <workItem from="1664981146818" duration="4972000" />
-      <workItem from="1664992316313" duration="9605000" />
+      <workItem from="1664992316313" duration="10042000" />
+      <workItem from="1665056322176" duration="10600000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1 backup">
       <created>1665001836703</created>
@@ -121,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665002981884</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Version 2 tweaks for circle impl.">
+      <created>1665003677730</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665003677730</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +167,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Version 1 backup" />
     <MESSAGE value="Version 2 backup with refactoring and package reorgs." />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 2 backup with refactoring and package reorgs." />
+    <MESSAGE value="Version 2 tweaks for circle impl." />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 2 tweaks for circle impl." />
   </component>
 </project>

@@ -7,12 +7,12 @@ public class Circle implements Shape{
     private int borderWidth;
 
     /**
-     * The default Triangle.
+     * The default Circle.
      */
     Circle(){
         setRadius(5);
-        fillColor = "gray";
-        borderWidth = 2;
+        fillColor = "red";
+        borderWidth = 3;
     }
 
     @Override
@@ -33,7 +33,7 @@ public class Circle implements Shape{
     @Override
     public void describeShape() {
         System.out.println("You are viewing a Circle.");
-        System.out.println("One of the many forms that can be implemented from the Shape Interface.");
+        System.out.println("One of the many forms the Shape Interface can implement.");
         System.out.println("Its area is: " + calculateArea() + " units (PI*r*r).");
         System.out.println("Its border is: " + borderWidth + " units wide.");
         System.out.println("Its fill color is: " + fillColor);
