@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ecf01be-4466-4f9b-b5d4-365ce2dcc4e9" name="Changes" comment="Version 1.2 for generics problem.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/generics/GAPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/generics/GAPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/generics/GIPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/generics/GIPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/generics/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/generics/Printer.java" afterDir="false" />
-    </list>
+    <list default="true" id="0ecf01be-4466-4f9b-b5d4-365ce2dcc4e9" name="Changes" comment="Version 1.2 for generics problem." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +109,7 @@
       <updated>1664981145033</updated>
       <workItem from="1664981146818" duration="4972000" />
       <workItem from="1664992316313" duration="10042000" />
-      <workItem from="1665056322176" duration="19945000" />
+      <workItem from="1665056322176" duration="20311000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1 backup">
       <created>1665001836703</created>
@@ -165,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665076590287</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Version 1.2 for generics problem.">
+      <created>1665077993024</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665077993024</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
