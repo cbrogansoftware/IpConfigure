@@ -18,7 +18,7 @@ abstract class GAPrinter<T> implements GIPrinter<T> {
      */
     @Override
     public void printType() {
-        System.out.println("The specified generic type is: " + myOutValue.getClass().toString());
+        System.out.println("The generic type resolved to: " + myOutValue.getClass().toString());
     }
 
     /**

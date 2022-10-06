@@ -24,14 +24,16 @@ public class Printer<T> extends GAPrinter<T> {
            to one that is incompatible with the passed constructor value here. Farther down
            below you can pass an incompatible value on the printGenericValueMeth call.
            This will produce a compilation error in either place (constructor and/or method call.)
+
+           Code reuse is demonstrated by creating various objects of different types using the
+           same class then calling methods on them.
+
          */
         Printer<String> myPrinterS = new Printer<>("Hello World");
         Printer<Integer> myPrinterI = new Printer<>(21);
         Printer<Double> myPrinterD = new Printer<>(23.55555);
 
         /*
-          Code reuse is demonstrated below by calling the same methods
-           on the various objects that were created above.
          */
         myPrinterS.printType();
         myPrinterS.printGenericValueCon();
