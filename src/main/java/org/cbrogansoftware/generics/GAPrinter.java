@@ -1,21 +1,21 @@
 package org.cbrogansoftware.generics;
 
 /**
- * GAprinter abstract for closely related classes.
+ * GAPrinter abstract class for closely related classes.
  *  (Note: Naming convention of GA prefix to indicate 'Generic Abstract'
  *      used for evaluation clarity and not best practice.)
  */
-abstract class GAprinter<T> implements GIprinter<T>{
+abstract class GAPrinter<T> implements GIPrinter<T> {
 
     T myOutValue;
 
-    public GAprinter(T myOutValue) {
+    public GAPrinter(T myOutValue) {
         this.myOutValue = myOutValue;
     }
 
     /**
      * Implement printType() method.
-     * @param type
+     * @param type Type of generic being demoed.
      */
     @Override
     public void printType(String type) {
@@ -26,13 +26,19 @@ abstract class GAprinter<T> implements GIprinter<T>{
      * Implement printGenericValue method.
      */
     @Override
-    public void printGenericValue() {
-        System.out.println("The passed generic value is: " + myOutValue);
+    public void printGenericValueCon() {
+        System.out.println("The passed generic value to the constructor is: " + myOutValue);
     }
 
     /**
      * Print passed value length concatenated to message for demo output.
-     * Method specified as abstract for demo purposes.
+     *  (Note: Method created as abstract method for demo purposes and could have
+     *  been created in parent interface and implemented here.)
      */
     public abstract void printValueLength();
+
+    @Override
+    public void printGenericValueMeth(T t) {
+        System.out.println("The passed generic value to a method is: " + t);
+    }
 }
