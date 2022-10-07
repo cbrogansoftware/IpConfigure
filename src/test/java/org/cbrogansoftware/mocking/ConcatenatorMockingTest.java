@@ -17,7 +17,7 @@ class ConcatenatorMockingTest {
     public void setUp() {
         mockDependencyA = mock(DependencyA.class);
         mockDependencyB = mock(DependencyB.class);
-        concatenator = new Concatenator((DependencyA) mockDependencyA, mockDependencyB);
+        concatenator = new Concatenator(mockDependencyA, mockDependencyB);
     }
 
     @Test
