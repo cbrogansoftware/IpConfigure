@@ -15,7 +15,8 @@ public class GcdMain {
             Thread myThread = new Thread(processor);
             myThread.start();
         }
-
+        // Note: For the above threading loop. Requirements specifically state:
+        //  "Demonstrate concurrency by executing each calculation in a separate thread."
     }
 
 }
