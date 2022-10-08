@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ecf01be-4466-4f9b-b5d4-365ce2dcc4e9" name="Changes" comment="Added POC for GCD Lambda logic.">
+    <list default="true" id="0ecf01be-4466-4f9b-b5d4-365ce2dcc4e9" name="Changes" comment="Update POC for GCD Lambda logic.">
+      <change afterPath="$PROJECT_DIR$/pairs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/gcd/FileProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/gcd/GcdMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/gcd/GcdProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/gcd/GcdSam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/FileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/MultithreadThing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/Multithreading.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/cleanonly/MainDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/cleanonly/MainDriver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,9 +72,9 @@
       <recent name="org.cbrogansoftware" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainDriver">
-    <configuration name="GcdMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.cbrogansoftware.poc.GcdMain1" />
+  <component name="RunManager" selected="Application.FileIO">
+    <configuration name="FileIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.cbrogansoftware.poc.FileIO" />
       <module name="IpConfigure12" />
       <extension name="coverage">
         <pattern>
@@ -118,29 +125,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConcatenatorMockingTest.testConcatThisReturnValueWhen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Multithreading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.cbrogansoftware.poc.Multithreading" />
       <module name="IpConfigure12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.cbrogansoftware.mocking.*" />
+          <option name="PATTERN" value="org.cbrogansoftware.poc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.cbrogansoftware.mocking" />
-      <option name="MAIN_CLASS_NAME" value="org.cbrogansoftware.mocking.ConcatenatorMockingTest" />
-      <option name="METHOD_NAME" value="testConcatThisReturnValueWhen" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileIO" />
+        <item itemvalue="Application.Multithreading" />
         <item itemvalue="Application.MainDriver" />
         <item itemvalue="Application.Lambdas" />
         <item itemvalue="Application.GcdMain2" />
-        <item itemvalue="Application.GcdMain1" />
-        <item itemvalue="JUnit.ConcatenatorMockingTest.testConcatThisReturnValueWhen" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +163,7 @@
       <workItem from="1665142215966" duration="22627000" />
       <workItem from="1665169755634" duration="598000" />
       <workItem from="1665227842695" duration="1062000" />
-      <workItem from="1665229731085" duration="11364000" />
+      <workItem from="1665229731085" duration="17183000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1 backup">
       <created>1665001836703</created>
@@ -287,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665237274037</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Update POC for GCD Lambda logic.">
+      <created>1665241643134</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1665241643134</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +329,8 @@
     <MESSAGE value="Updating mocking package and  tests. 2" />
     <MESSAGE value="Updating mocking package and  tests. 3" />
     <MESSAGE value="Added POC for GCD Lambda logic." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added POC for GCD Lambda logic." />
+    <MESSAGE value="Update POC for GCD Lambda logic." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update POC for GCD Lambda logic." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/IpConfigure12$SimpleCalculatorTest_eightyFiveShouldBeB.ic" NAME="SimpleCalculatorTest.eightyFiveShouldBeB Coverage Results" MODIFIED="1665145948604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
