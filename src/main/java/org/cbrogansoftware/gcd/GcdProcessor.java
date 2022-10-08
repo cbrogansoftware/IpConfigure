@@ -9,22 +9,28 @@ import java.util.ArrayList;
 public class GcdProcessor implements Runnable {
     private int threadNumber;
     ArrayList<Pair> listOfPairs = new ArrayList<>();
-    public GcdProcessor (ArrayList<Pair> listOfPairs, int threadNumber){
+    Pair<String, String> pair;// = new Pair<>("", "");
+
+//    public GcdProcessor (ArrayList<Pair> listOfPairs, int threadNumber){
+    public GcdProcessor (Pair pair, int threadNumber){
         this.threadNumber = threadNumber;
-        this.listOfPairs = listOfPairs;
+        //this.listOfPairs = listOfPairs;
+        this.pair = pair;
     }
     @Override
     public void run(){
         BigInteger bi1, bi2, bi3;
         GcdSam lambdaGcd = (b1, b2) -> b1.gcd(b2);
 
-        for(int i=0;i < listOfPairs.size(); i++){
-            Pair<String, String> outPairs = listOfPairs.get(i);
+//       for(int i=0;i < listOfPairs.size(); i++){
+//            Pair<String, String> outPairs = listOfPairs.get(i);
+            Pair<String, String> outPairs = pair;
             bi1 = new BigInteger(outPairs.getKey().toString());
             bi2 = new BigInteger(outPairs.getValue().toString());
-
             bi3 = lambdaGcd.calcGcd(bi1, bi2);
-            System.out.println("GcdProcessor1 for index " + i + " is: " + bi3 + " from thread " + threadNumber);
-        }
+            System.out.println("ThreadNumber: " + threadNumber + " GCD: " + bi3);
+
+//            System.out.println("GcdProcessor1 for index " + i + " is: " + bi3 + " from thread " + threadNumber);
+//        }
     }
 }
