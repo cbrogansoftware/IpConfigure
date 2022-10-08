@@ -8,13 +8,18 @@ import java.util.ArrayList;
 
 public class GcdProcessor implements Runnable {
     private int threadNumber;
-    ArrayList<Pair> listOfPairs = new ArrayList<>();
-    Pair<String, String> pair;// = new Pair<>("", "");
+    Pair<String, String> pair;
 
-//    public GcdProcessor (ArrayList<Pair> listOfPairs, int threadNumber){
+    /**
+     * GcdProcessor - Class for processing Greatest Common Divisor
+     * @param pair - Pass Pair object with two string representations of integers.
+     *                  This processor uses BigInteger.gcd which requires the pair of values
+     *                  to be passed as strings.
+     * @param threadNumber - Passed here to be used for demo purposes to show what thread is actually doing
+     *                          the GCD calculation.
+     */
     public GcdProcessor (Pair pair, int threadNumber){
         this.threadNumber = threadNumber;
-        //this.listOfPairs = listOfPairs;
         this.pair = pair;
     }
     @Override
@@ -22,15 +27,13 @@ public class GcdProcessor implements Runnable {
         BigInteger bi1, bi2, bi3;
         GcdSam lambdaGcd = (b1, b2) -> b1.gcd(b2);
 
-//       for(int i=0;i < listOfPairs.size(); i++){
-//            Pair<String, String> outPairs = listOfPairs.get(i);
-            Pair<String, String> outPairs = pair;
-            bi1 = new BigInteger(outPairs.getKey().toString());
-            bi2 = new BigInteger(outPairs.getValue().toString());
-            bi3 = lambdaGcd.calcGcd(bi1, bi2);
-            System.out.println("ThreadNumber: " + threadNumber + " GCD: " + bi3);
-
-//            System.out.println("GcdProcessor1 for index " + i + " is: " + bi3 + " from thread " + threadNumber);
-//        }
+        Pair<String, String> outPairs = pair;
+        bi1 = new BigInteger(outPairs.getKey().toString());
+        bi2 = new BigInteger(outPairs.getValue().toString());
+        bi3 = lambdaGcd.calcGcd(bi1, bi2);
+        System.out.println("ThreadNumber: " + threadNumber
+                            + " Integer1: " + bi1
+                            + " Integer2: " + bi2
+                            + " GCD: " + bi3);
     }
 }
