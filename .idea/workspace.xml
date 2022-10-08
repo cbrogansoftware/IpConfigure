@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ecf01be-4466-4f9b-b5d4-365ce2dcc4e9" name="Changes" comment="Update POC for GCD Lambda logic.">
-      <change afterPath="$PROJECT_DIR$/pairs.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/gcd/FileProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/gcd/GcdMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/gcd/GcdProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/gcd/GcdSam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/FileIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/MultithreadThing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/Multithreading.java" afterDir="false" />
+    <list default="true" id="0ecf01be-4466-4f9b-b5d4-365ce2dcc4e9" name="Changes" comment="Added POC for file reader and threading.  Added empty classes for main project.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/gcd/FileProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/gcd/FileProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/gcd/GcdMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/gcd/GcdMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/gcd/GcdProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/gcd/GcdProcessor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +67,7 @@
       <recent name="org.cbrogansoftware" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileIO">
+  <component name="RunManager" selected="Application.GcdMain">
     <configuration name="FileIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.cbrogansoftware.poc.FileIO" />
       <module name="IpConfigure12" />
@@ -86,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GcdMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.cbrogansoftware.poc.GcdMain2" />
+    <configuration name="GcdMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.cbrogansoftware.gcd.GcdMain" />
       <module name="IpConfigure12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.cbrogansoftware.poc.*" />
+          <option name="PATTERN" value="org.cbrogansoftware.gcd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GcdMain" />
         <item itemvalue="Application.FileIO" />
         <item itemvalue="Application.Multithreading" />
         <item itemvalue="Application.MainDriver" />
         <item itemvalue="Application.Lambdas" />
-        <item itemvalue="Application.GcdMain2" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +158,7 @@
       <workItem from="1665142215966" duration="22627000" />
       <workItem from="1665169755634" duration="598000" />
       <workItem from="1665227842695" duration="1062000" />
-      <workItem from="1665229731085" duration="17183000" />
+      <workItem from="1665229731085" duration="19371000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1 backup">
       <created>1665001836703</created>
@@ -298,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665241643134</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Added POC for file reader and threading.  Added empty classes for main project.">
+      <created>1665251301292</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1665251301292</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +332,8 @@
     <MESSAGE value="Updating mocking package and  tests. 3" />
     <MESSAGE value="Added POC for GCD Lambda logic." />
     <MESSAGE value="Update POC for GCD Lambda logic." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update POC for GCD Lambda logic." />
+    <MESSAGE value="Added POC for file reader and threading.  Added empty classes for main project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added POC for file reader and threading.  Added empty classes for main project." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/IpConfigure12$SimpleCalculatorTest_eightyFiveShouldBeB.ic" NAME="SimpleCalculatorTest.eightyFiveShouldBeB Coverage Results" MODIFIED="1665145948604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
