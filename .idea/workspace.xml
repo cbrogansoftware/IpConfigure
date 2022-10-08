@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ecf01be-4466-4f9b-b5d4-365ce2dcc4e9" name="Changes" comment="Updating mocking package and  tests. 3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/GcdMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/GcdMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/GcdSam1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/Lambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/Lambdas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/Printable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/StandardGcd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/cleanonly/GcdSam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/cleanonly/MainDriver.java" afterDir="false" />
+    <list default="true" id="0ecf01be-4466-4f9b-b5d4-365ce2dcc4e9" name="Changes" comment="Added POC for GCD Lambda logic.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/cleanonly/MainDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/cleanonly/MainDriver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -168,7 +159,7 @@
       <workItem from="1665142215966" duration="22627000" />
       <workItem from="1665169755634" duration="598000" />
       <workItem from="1665227842695" duration="1062000" />
-      <workItem from="1665229731085" duration="7179000" />
+      <workItem from="1665229731085" duration="11364000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1 backup">
       <created>1665001836703</created>
@@ -289,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665169365026</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Added POC for GCD Lambda logic.">
+      <created>1665237274037</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1665237274037</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +317,8 @@
     <MESSAGE value="Updating mocking package and  tests." />
     <MESSAGE value="Updating mocking package and  tests. 2" />
     <MESSAGE value="Updating mocking package and  tests. 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating mocking package and  tests. 3" />
+    <MESSAGE value="Added POC for GCD Lambda logic." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added POC for GCD Lambda logic." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/IpConfigure12$SimpleCalculatorTest_eightyFiveShouldBeB.ic" NAME="SimpleCalculatorTest.eightyFiveShouldBeB Coverage Results" MODIFIED="1665145948604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
