@@ -8,7 +8,7 @@ public interface Shape {
 
     /**
      * Returns area of shape.
-     * The calculateArea() method is key to demonstrating polymorphism
+     * The calculateArea() method is instrumental in demonstrating polymorphism
      * in this example because each subclass must implement the appropriate
      * geometric formula for its specific Shape.
      * @return Area as double.

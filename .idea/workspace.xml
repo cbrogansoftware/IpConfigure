@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ecf01be-4466-4f9b-b5d4-365ce2dcc4e9" name="Changes" comment="GCD functionality added comment.">
+    <list default="true" id="0ecf01be-4466-4f9b-b5d4-365ce2dcc4e9" name="Changes" comment="GCD made some overall implementation improvements.  Including using BinaryOperator&lt;T&gt; for the lambda requirement.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/gcd/FileProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/gcd/FileProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/gcd/GcdMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/gcd/GcdMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/gcd/GcdProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/gcd/GcdProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/gcd/GcdSam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/GcdSam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/generics/GIPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/generics/GIPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/generics/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/generics/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +73,7 @@
       <recent name="org.cbrogansoftware" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GcdMain">
+  <component name="RunManager" selected="Application.ShapeMain">
     <configuration name="FileIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.cbrogansoftware.poc.FileIO" />
       <module name="IpConfigure12" />
@@ -98,32 +100,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lambdas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.cbrogansoftware.poc.Lambdas" />
-      <module name="IpConfigure12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.cbrogansoftware.poc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.cbrogansoftware.poc.cleanonly.MainDriver" />
-      <module name="IpConfigure12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.cbrogansoftware.poc.cleanonly.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Multithreading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.cbrogansoftware.poc.Multithreading" />
       <module name="IpConfigure12" />
@@ -137,13 +113,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Printer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.cbrogansoftware.generics.Printer" />
+      <module name="IpConfigure12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cbrogansoftware.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.cbrogansoftware.inheritance.ShapeMain" />
+      <module name="IpConfigure12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cbrogansoftware.inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShapeMain" />
+        <item itemvalue="Application.Printer" />
         <item itemvalue="Application.GcdMain" />
         <item itemvalue="Application.FileIO" />
         <item itemvalue="Application.Multithreading" />
-        <item itemvalue="Application.MainDriver" />
-        <item itemvalue="Application.Lambdas" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +165,8 @@
       <workItem from="1665169755634" duration="598000" />
       <workItem from="1665227842695" duration="1062000" />
       <workItem from="1665229731085" duration="25128000" />
-      <workItem from="1665314465569" duration="3648000" />
+      <workItem from="1665314465569" duration="4012000" />
+      <workItem from="1665320562068" duration="1112000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1 backup">
       <created>1665001836703</created>
@@ -333,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665259136775</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="GCD made some overall implementation improvements.  Including using BinaryOperator&lt;T&gt; for the lambda requirement.">
+      <created>1665318416240</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1665318416240</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,7 +380,8 @@
     <MESSAGE value="GCD functionality dirty commit.  Appears to work but needs more debugging." />
     <MESSAGE value="GCD functionality looks like it meets requirements." />
     <MESSAGE value="GCD functionality added comment." />
-    <option name="LAST_COMMIT_MESSAGE" value="GCD functionality added comment." />
+    <MESSAGE value="GCD made some overall implementation improvements.  Including using BinaryOperator&lt;T&gt; for the lambda requirement." />
+    <option name="LAST_COMMIT_MESSAGE" value="GCD made some overall implementation improvements.  Including using BinaryOperator&lt;T&gt; for the lambda requirement." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/IpConfigure12$SimpleCalculatorTest_eightyFiveShouldBeB.ic" NAME="SimpleCalculatorTest.eightyFiveShouldBeB Coverage Results" MODIFIED="1665145948604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

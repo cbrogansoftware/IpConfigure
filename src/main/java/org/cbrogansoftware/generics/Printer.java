@@ -20,7 +20,7 @@ public class Printer<T> extends GAPrinter<T> {
     public static void main(String[] args) {
 
         /*
-          To demonstrate strong type checking, simply change the specified generic type
+          To verify strong type checking, simply change the specified generic type
            to one that is incompatible with the passed constructor value here. Farther down
            below you can pass an incompatible value on the printGenericValueMeth call.
            This will produce a compilation error in either place (constructor and/or method call.)

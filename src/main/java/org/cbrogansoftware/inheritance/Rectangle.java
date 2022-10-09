@@ -35,7 +35,7 @@ public class Rectangle implements Shape{
     @Override
     public void describeShape() {
         System.out.println("You are viewing a Rectangle.");
-        System.out.println("One of the many forms the Shape Interface can implement.");
+        System.out.println("One of the many forms that can be implemented from the Shape interface.");
         System.out.println("Its area is: " + calculateArea() + " units (h*w).");
         System.out.println("Its border is: " + borderWidth + " units wide.");
         System.out.println("Its fill color is: " + fillColor);

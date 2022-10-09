@@ -21,7 +21,4 @@ public interface GIPrinter<T> {
      */
     public void printGenericValueMeth(T t);
 
-    // * Print passed value length concatenated to message for demo output.
-    //public void printValueLength();
-
 }
