@@ -7,16 +7,17 @@ public class GcdMain {
     public static void main(String[] args){
 
         FileProcessor fileProcessor = new FileProcessor();
-        ArrayList<Pair> listOfPairs = new ArrayList<>();
+        String file = "pairs.txt"; // Default file is in this project folder.
+        ArrayList<Pair> listOfPairs = fileProcessor.getIntPairsFromFile(file);
 
-        listOfPairs = fileProcessor.getIntPairsFromFile("pairs.txt");
+        // Note: For the below demo loop... Requirements specifically state:
+        //  "Demonstrate concurrency by executing each calculation in a separate thread."
+        //  No file size restrictions have been implemented.  Use caution if using very large files.
         for(int i=0;i<listOfPairs.size();i++){
             GcdProcessor processor = new GcdProcessor(listOfPairs.get(i), i);
             Thread myThread = new Thread(processor);
             myThread.start();
         }
-        // Note: For the above threading loop. Requirements specifically state:
-        //  "Demonstrate concurrency by executing each calculation in a separate thread."
     }
 
 }

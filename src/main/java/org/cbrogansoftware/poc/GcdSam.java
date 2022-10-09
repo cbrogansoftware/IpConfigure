@@ -1,4 +1,4 @@
-package org.cbrogansoftware.gcd;
+package org.cbrogansoftware.poc;
 
 import java.math.BigInteger;
 

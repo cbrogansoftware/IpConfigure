@@ -20,7 +20,7 @@ public class FileProcessor {
             reader = new BufferedReader(new FileReader(filename));
             while (true){
                 try {
-                    if (!((line = reader.readLine()) != null)) break;
+                    if ((line = reader.readLine()) == null) break;
                 } catch (IOException e) {
                     throw new RuntimeException(e);
                 }
