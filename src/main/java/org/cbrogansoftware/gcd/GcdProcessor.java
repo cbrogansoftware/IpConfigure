@@ -10,12 +10,12 @@ public class GcdProcessor implements Runnable {
     Pair<String, String> pair;
 
     /**
-     * GcdProcessor - Class for processing Greatest Common Divisor
-     * @param pair - Pass Pair object with two string representations of integers.
-     *                  This processor uses BigInteger.gcd which requires the pair of values
-     *                  to be passed as strings.
-     * @param threadNumber - Passed here to be used for demo purposes to show what thread is actually doing
-     *                          the GCD calculation.
+     * Class for processing Greatest Common Divisor
+     * @param pair Pass Pair object with two string representations of integers.
+     *               This processor uses BigInteger.gcd which requires the pair of values
+     *               to be passed as strings.
+     * @param threadNumber Passed here to demonstrate concurrency. It shows which thread is actually doing
+     *                       the GCD calculation.
      */
     public GcdProcessor (Pair pair, int threadNumber){
         this.threadNumber = threadNumber;
@@ -27,15 +27,14 @@ public class GcdProcessor implements Runnable {
     }
 
     /**
-     * Method calcGcd()
-     *   Designed specifically for this assessment to calculate
+     * Designed specifically for this assessment to calculate
      *   and display GCD with its operands and thread number.
      *
-     *   A real world implementation would likely see this method
+     * A real world implementation would likely see this method
      *   simply calculate and return the GCD as Integer.
      *
-     *   Note that this method also satisfies the lambda requirement
-     *    and uses the functional interface called BinaryOperator<T>.
+     * Note that this method also satisfies the lambda requirement
+     *   and uses the functional interface called BinaryOperator<T>.
      */
     private void calcGcd() {
         BigInteger bi1, bi2, bi3;

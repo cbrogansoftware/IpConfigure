@@ -10,7 +10,7 @@ public class GcdMain {
         String file = "pairs.txt"; // Default file is in this project folder.
         ArrayList<Pair> listOfPairs = fileProcessor.getIntPairsFromFile(file);
 
-        // Note: For the below demo loop... Requirements specifically state:
+        // Note: For the below demo loop, requirements specifically state:
         //  "Demonstrate concurrency by executing each calculation in a separate thread."
         //  No file size restrictions have been implemented.  Use caution if using very large files.
         for(int i=0;i<listOfPairs.size();i++){
