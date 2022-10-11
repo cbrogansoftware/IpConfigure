@@ -1,5 +1,8 @@
 package org.cbrogansoftware.inheritance;
 
+/**
+ * Rectangle implements Shape interface.
+ */
 public class Rectangle implements Shape{
 
     private double width;

@@ -13,17 +13,11 @@ abstract class GAPrinter<T> implements GIPrinter<T> {
         this.myOutValue = myOutValue;
     }
 
-    /**
-     * Implement printType() method.
-     */
     @Override
     public void printType() {
         System.out.println("The generic type resolved to: " + myOutValue.getClass().toString());
     }
 
-    /**
-     * Implement printGenericValue method.
-     */
     @Override
     public void printGenericValueCon() {
         System.out.println("The passed value to the constructor is: " + myOutValue);

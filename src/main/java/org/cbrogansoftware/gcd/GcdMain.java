@@ -7,7 +7,8 @@ public class GcdMain {
     public static void main(String[] args){
 
         FileProcessor fileProcessor = new FileProcessor();
-        String file = "pairs.txt"; // Default file is in this project folder.
+        String file = "C:\\tmp\\pairs.txt"; // Absolute path
+        //String file = "pairs.txt"; // Default file is in this project folder.  Only if importing into IDE.
         ArrayList<Pair> listOfPairs = fileProcessor.getIntPairsFromFile(file);
 
         // Note: For the below demo loop, requirements specifically state:

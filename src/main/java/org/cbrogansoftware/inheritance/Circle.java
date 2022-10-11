@@ -1,5 +1,8 @@
 package org.cbrogansoftware.inheritance;
 
+/**
+ * Circle implements Shape interface.
+ */
 public class Circle implements Shape{
 
     private double radius;
@@ -15,6 +18,10 @@ public class Circle implements Shape{
         borderWidth = 3;
     }
 
+    /**
+     * Implements calculateArea method for a circle.
+     * @return double
+     */
     @Override
     public double calculateArea() {
         return Math.PI*radius*radius;

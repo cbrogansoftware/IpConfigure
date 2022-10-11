@@ -7,7 +7,11 @@ import org.junit.jupiter.api.Test;
 
 import static org.mockito.Mockito.*;
 
-class ConcatenatorMockingTest {
+/**
+ * Uses JUnit and Mockito to demonstrate a
+ * unit test which includes mock expectations/verifications.
+ */
+public class ConcatenatorMockingTest {
 
     DependencyA mockDependencyA;
     DependencyB mockDependencyB;

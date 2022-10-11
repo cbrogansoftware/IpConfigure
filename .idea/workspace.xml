@@ -4,12 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ecf01be-4466-4f9b-b5d4-365ce2dcc4e9" name="Changes" comment="Making overall touchups and comments.">
+    <list default="true" id="0ecf01be-4466-4f9b-b5d4-365ce2dcc4e9" name="Changes" comment="Adjusted GCD for better file handling.">
+      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pairs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pairs.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/gcd/FileProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/gcd/FileProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/gcd/GcdMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/gcd/GcdMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/gcd/GcdProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/gcd/GcdProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/generics/GAPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/generics/GAPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/generics/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/generics/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/inheritance/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/mocking/DependencyB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/mocking/DependencyB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/objectcomparison/CompareMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/objectcomparison/CompareMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/objectcomparison/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/objectcomparison/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/ClassA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/ClassB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/ClassC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/FileIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/GcdMain1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/GcdMain2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/GcdSam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/GcdSam1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/Lambda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/Lambdas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/MultithreadThing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/Multithreading.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/Printable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/SimpleCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/StandardGcd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/cleanonly/GcdSam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cbrogansoftware/poc/cleanonly/MainDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/cbrogansoftware/mocking/ConcatenatorMockingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/cbrogansoftware/mocking/ConcatenatorMockingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/cbrogansoftware/mocking/ConcatenatorStandardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/cbrogansoftware/mocking/ConcatenatorStandardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/cbrogansoftware/poc/ClassCTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/cbrogansoftware/poc/SimpleCalculatorTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,19 +102,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.GcdMain">
-    <configuration name="FileIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.cbrogansoftware.poc.FileIO" />
-      <module name="IpConfigure12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.cbrogansoftware.poc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GcdMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.cbrogansoftware.gcd.GcdMain" />
       <module name="IpConfigure12" />
@@ -98,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Multithreading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.cbrogansoftware.poc.Multithreading" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.cbrogansoftware.Main" />
       <module name="IpConfigure12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.cbrogansoftware.poc.*" />
+          <option name="PATTERN" value="org.cbrogansoftware.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,28 +128,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Printer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.cbrogansoftware.generics.Printer" />
+    <configuration name="ConcatenatorMockingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IpConfigure12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.cbrogansoftware.generics.*" />
+          <option name="PATTERN" value="org.cbrogansoftware.mocking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.cbrogansoftware.mocking" />
+      <option name="MAIN_CLASS_NAME" value="org.cbrogansoftware.mocking.ConcatenatorMockingTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.cbrogansoftware.inheritance.ShapeMain" />
+    <configuration name="ConcatenatorMockingTest.testConcatThisReturnValueWhen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IpConfigure12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.cbrogansoftware.inheritance.*" />
+          <option name="PATTERN" value="org.cbrogansoftware.mocking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.cbrogansoftware.mocking" />
+      <option name="MAIN_CLASS_NAME" value="org.cbrogansoftware.mocking.ConcatenatorMockingTest" />
+      <option name="METHOD_NAME" value="testConcatThisReturnValueWhen" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConcatenatorStandardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IpConfigure12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cbrogansoftware.mocking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.cbrogansoftware.mocking" />
+      <option name="MAIN_CLASS_NAME" value="org.cbrogansoftware.mocking.ConcatenatorStandardTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,10 +177,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.GcdMain" />
-        <item itemvalue="Application.ShapeMain" />
-        <item itemvalue="Application.Printer" />
-        <item itemvalue="Application.FileIO" />
-        <item itemvalue="Application.Multithreading" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ConcatenatorMockingTest" />
+        <item itemvalue="JUnit.ConcatenatorStandardTest" />
+        <item itemvalue="JUnit.ConcatenatorMockingTest.testConcatThisReturnValueWhen" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +202,10 @@
       <workItem from="1665229731085" duration="25128000" />
       <workItem from="1665314465569" duration="4012000" />
       <workItem from="1665320562068" duration="1471000" />
-      <workItem from="1665400364868" duration="5927000" />
+      <workItem from="1665400364868" duration="16020000" />
+      <workItem from="1665420945769" duration="2550000" />
+      <workItem from="1665423878660" duration="87000" />
+      <workItem from="1665424191969" duration="6569000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1 backup">
       <created>1665001836703</created>
@@ -349,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665322007515</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Adjusted GCD for better file handling.">
+      <created>1665407762489</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1665407762489</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +435,8 @@
     <MESSAGE value="GCD functionality added comment." />
     <MESSAGE value="GCD made some overall implementation improvements.  Including using BinaryOperator&lt;T&gt; for the lambda requirement." />
     <MESSAGE value="Making overall touchups and comments." />
-    <option name="LAST_COMMIT_MESSAGE" value="Making overall touchups and comments." />
+    <MESSAGE value="Adjusted GCD for better file handling." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjusted GCD for better file handling." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/IpConfigure12$SimpleCalculatorTest_eightyFiveShouldBeB.ic" NAME="SimpleCalculatorTest.eightyFiveShouldBeB Coverage Results" MODIFIED="1665145948604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

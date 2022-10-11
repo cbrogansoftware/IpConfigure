@@ -15,21 +15,21 @@ public class CompareMain {
         System.out.println("  house2 and house3 are constructed with identical parameters.");
 
         System.out.println("----------------------");
-        System.out.println("Compare house1 to house1. Are they the same by... ");
+        System.out.println("Compare house1 to house1. Are they the same by...? ");
         System.out.println("  using reference |" + (house1 == house1) + "|");
         System.out.println("  using value |" + house1.equals(house1) + "|");
         System.out.println("  house1 hashCode |" + house1.hashCode() + "|");
         System.out.println("  house1 hashCode |" + house1.hashCode() + "|");
 
         System.out.println("----------------------");
-        System.out.println("Compare house1 to house2. Are they the same by... ");
+        System.out.println("Compare house1 to house2. Are they the same by...? ");
         System.out.println("  using reference |" + (house1 == house2) + "|");
         System.out.println("  using value |" + house1.equals(house2) + "|");
         System.out.println("  house1 hashCode |" + house1.hashCode() + "|");
         System.out.println("  house2 hashCode |" + house2.hashCode() + "|");
 
         System.out.println("----------------------");
-        System.out.println("Compare house2 to house3. Are they the same by... ");
+        System.out.println("Compare house2 to house3. Are they the same by...? ");
         System.out.println("  using reference |" + (house2 == house3) + "|");
         System.out.println("  using value |" + house2.equals(house3) + "|");
         System.out.println("  house2 hashCode |" + house2.hashCode() + "|");

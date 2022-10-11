@@ -2,6 +2,9 @@ package org.cbrogansoftware.objectcomparison;
 
 import java.util.Objects;
 
+/**
+ * House class for demonstrating object comparison.
+ */
 public class House {
 
     private Integer squareFoot;
@@ -9,6 +12,13 @@ public class House {
     private String exteriorColor;
     private Integer numFirePlaces;
 
+    /**
+     * Create house by passing desired attributes.
+     * @param squareFoot
+     * @param numBaths
+     * @param exteriorColor
+     * @param numFirePlaces
+     */
     public House(Integer squareFoot, Double numBaths, String exteriorColor, Integer numFirePlaces) {
         this.squareFoot = squareFoot;
         this.numBaths = numBaths;

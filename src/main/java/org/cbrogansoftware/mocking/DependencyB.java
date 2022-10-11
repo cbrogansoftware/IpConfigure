@@ -1,5 +1,8 @@
 package org.cbrogansoftware.mocking;
 
+/**
+ * A hypothetical class used to demonstrate dependency mocking.
+ */
 public class DependencyB {
     private String myStringB;
 

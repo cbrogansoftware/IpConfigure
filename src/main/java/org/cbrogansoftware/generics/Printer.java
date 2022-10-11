@@ -9,9 +9,6 @@ public class Printer<T> extends GAPrinter<T> {
         this.myOutValue = myOutValue;
     }
 
-    /**
-     * Implement printValueLength method.
-     */
     @Override
     public void printValueLength() {
         System.out.println("The passed value to the constructor has a toString length of: " + myOutValue.toString().length());
@@ -20,7 +17,7 @@ public class Printer<T> extends GAPrinter<T> {
     public static void main(String[] args) {
 
         /*
-          To verify strong type checking, simply change the specified generic type
+          To verify the demonstrated strong type checking, simply change the specified generic type
            to one that is incompatible with the passed constructor value here. Farther down
            below you can pass an incompatible value on the printGenericValueMeth call.
            This will produce a compilation error in either place (constructor and/or method call.)

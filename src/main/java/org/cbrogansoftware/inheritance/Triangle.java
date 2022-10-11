@@ -1,5 +1,8 @@
 package org.cbrogansoftware.inheritance;
 
+/**
+ * Triangle implements Shape interface.
+ */
 public class Triangle implements Shape{
 
     private double base;
